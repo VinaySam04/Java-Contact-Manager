@@ -5,10 +5,15 @@ This is a Java console application I built for managing personal contact entries
 # Features
 
 File Input: Loads contacts from a text file named CONTACTS when the program starts.
+
 Add Contact: Add a new contact with first name, last name, phone number, email, and birthday. Validates phone number format (XXX-XXX-XXXX), checks for @ in emails, and checks for / in birthdays. Prevents duplicate name entries.
+
 Search Contact: Finds a contact by first and last name using binary search.
+
 Update Contact: Update individual details for a contact without needing to re-type existing info.
+
 Delete Contact: Prompts for confirmation before removing a contact entry from memory.
+
 Print All: Displays all currently stored contacts sorted alphabetically by full name.
 
 # Project Files
@@ -22,9 +27,13 @@ contactManagerClient.java - Main driver program containing the menu loop and inp
 # Requirements
 
 JDK 8 or higher
+
 A text file named CONTACTS placed in the root directory.
+
 Input File Format (CONTACTS)
+
 The file must contain space-separated values for each contact in this exact order:
+
 FirstName LastName PhoneNumber Email Birthday
 
 # Example CONTACTS file:
