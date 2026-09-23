@@ -14,7 +14,9 @@ Print All: Displays all currently stored contacts sorted alphabetically by full 
 # Project Files
 
 contact.java - Class defining the contact object structure, getters/setters, formatted string output, and Comparable interface implementation for sorting by full name.
+
 contactOrganizer.java - Handles storing contacts in an ArrayList, sorting the list with Collections.sort(), and performing binary search, updates, deletes, and print operations.
+
 contactManagerClient.java - Main driver program containing the menu loop and input processing.
 
 # Requirements
