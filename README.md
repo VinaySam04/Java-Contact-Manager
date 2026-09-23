@@ -39,12 +39,15 @@ FirstName LastName PhoneNumber Email Birthday
 # Example CONTACTS file:
 
 ADA LOVELACE 543-449-2349 ADALOVELACE@GMAIL.COM 12/10/15
+
 AYESHA PATEL 917-322-4855 AYESHA.PATEL@GMAIL.COM 02/14/97
 
 # Steps
 
 Open a terminal/command prompt in the directory containing the files.
+
 Compile the source files:
+
 javac contact.java contactOrganizer.java contactManagerClient.java
 
 Execute the program:
@@ -54,8 +57,13 @@ java contactManagerClient
 Console Menu Options
 
 1: Enter Contact Details
+
 2: Search for Contacts by Name
+
 3: Update Contacts by Name
+
 4: Delete Contacts by Name
+
 5: Print all Contacts
+
 6: Exit the Program
